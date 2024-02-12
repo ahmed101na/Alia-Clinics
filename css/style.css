@@ -12,7 +12,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-/* start header */
+/* start C */
 header {
   background-color: #ffffff;
   width: 100%;
@@ -245,6 +245,10 @@ section {
 }
 
 @media (max-width: 300px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
   body {
     font-size: 10px;
   }
