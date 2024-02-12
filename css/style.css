@@ -37,11 +37,12 @@ header {
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 500;
-  padding-left: 30px;
+  padding: 15px;
 }
 
 .navigation a:hover {
   color: #601cfc;
+  border-bottom: 1px solid #601cfc;
 }
 /* End header */
 
@@ -113,7 +114,6 @@ section {
   color: #8d8a8a;
 }
 /* End section - main */
-
 
 .title {
   display: flex;
@@ -294,7 +294,6 @@ section {
   body {
     font-size: 12px;
   }
-
   .main-content h2 {
     font-size: 0.8em;
   }
